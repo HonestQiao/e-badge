@@ -1,0 +1,18 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+// BLE UUID (与P4端一致)
+#define SERVICE_UUID        "0000ABCD-0000-1000-8000-00805F9B34FB"
+#define CHARACTERISTIC_UUID "00001234-0000-1000-8000-00805F9B34FB"
+
+// 设备信息
+#define DEVICE_NAME_PREFIX  "M5B_"
+
+// 屏幕尺寸
+#define SCREEN_WIDTH   540
+#define SCREEN_HEIGHT  960
+
+// 墨水屏刷新控制
+#define REFRESH_COOLDOWN  2000  // 最小刷新间隔(ms)
+
+#endif
